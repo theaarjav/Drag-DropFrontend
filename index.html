@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop Functionality</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">     <!--It's Just for using google Fonts. No Frameworks/Libraries has been used-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+
+        <div class="containers">
+
+            <div class="boxes first">
+                <i class="toDrag material-icons" draggable="true">favorite</i>
+                <p class="toDrag text" draggable="true">You can take the ball home</p>
+                <img class="toDrag imgBox" src="photo1.webp" alt="img1" height="100" width="100">
+                <img class="toDrag imgBox"
+                    src="https://fastly.picsum.photos/id/39/200/300.jpg?hmac=CcUiRU6-82MldMqtiF9shpKCbwzwkILEWuRi90JsADs"
+                    alt="img2">
+                <i class="toDrag material-icons" draggable="true">cloud</i>
+                <p class="toDrag text" draggable="true">I'll take 3 points</p>
+                <i class="toDrag material-icons" draggable="true">attachment</i>
+            </div>
+            <div class="boxes second"></div>
+        </div>
+        <button class="btn">Reset</button>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
