@@ -58,7 +58,8 @@ body{
     -webkit-transition-property: box-shadow, transform;
     transition-property: box-shadow, transform;
 }
-.btn:hover, .btn:focus, .btn:active{        /*Shadow and zooming in and out animation for the reset butto*/
+.btn:hover, .btn:focus, .btn:active{        
+    /*Shadow and zooming in and out animation for the reset butto*/
     box-shadow: 0 0 20px rgba(167, 220, 236, 0.5);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
