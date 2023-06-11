@@ -1,0 +1,84 @@
+body{
+    background: black;
+}
+.toDrag{
+    border-radius: 5px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.toDrag:not(.imgBox){
+    
+    height: 20px;
+}
+
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.containers{
+    position: relative;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    background: cyan;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(44, 76, 236);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(167, 220, 236, 0.1);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(167, 220, 236, 0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+      
+.boxes{
+    position: inherit;
+    border-radius: 5px;
+    height: 80vh;
+    width: 70vh;
+    margin: 20px;
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px rgb(219, 152, 152) solid;
+}
+.boxes>p{
+    text-decoration: solid;
+    font: 2em sans-serif;
+}
+
+
